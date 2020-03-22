@@ -1,0 +1,69 @@
+body {
+	background-image: url("C:/Users/YOGA 260/Desktop/My Web Page/img/books.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+input,textarea{
+	background-color: transparent;
+}
+
+input:hover{
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: currentColor;
+	transition: 1s;
+}
+textarea:hover{
+	background-color: white;
+	transition: 1s;
+}
+
+h1 {
+	transition: 2s;
+	text-align: center;
+	background-color: black;
+	color:white;
+}
+
+input:focus{
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: currentColor;
+	transition: 1s;
+}
+textarea:focus{
+	background-color: white;
+	transition: 1s;
+}
+
+p{
+	font-family: "Forte";
+	font-size: 75pt;
+	text-align: center;
+	background-color: transparent;
+	color:#cce5ff;
+	border-radius: 10px;
+	background-color: black;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 50%;
+	width: 2000px;
+	
+
+}
+
+.body{
+
+	background-image: url("C:/Users/YOGA 260/Desktop/My Web Page/img/message.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	<background-color: lightblue;
+	transition: 0.5s;
+	cursor: default;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

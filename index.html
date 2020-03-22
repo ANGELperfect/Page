@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html   lang="fr"> 
+<head>  
+	<link rel="stylesheet" type="text/css" href="C:\Users\YOGA 260\Desktop\Web Projects\CSS\tp2.css">
+	<meta  charset="UTF-8" />  
+	<title>Commande</title> 
+</head> 
+
+<body> 
+	<h1>Welcome</h1>
+
+
+
+
+<form action="Merci.html" method="post"  oninput=" prixentree.value = parseInt(entree.value),           prixplat.value = parseInt(plat.value),           prixdessert.value = parseInt(dessert.value),                  prixtotal.value=parseInt(prixentree.value) +             parseInt(prixplat.value) + parseInt(prixdessert.value)  ">  <fieldset> <legend > <b>Informations</b></legend> 
+
+<label>Last Name : </label><input type="text" name="nom" placeholder="   votre nom"/> <br><br>
+<label>First Name : </label><input type="text" name="prénom" placeholder="   votre prénom"/><br>
+<br><textarea placeholder="   Adresse postale" name="adresse_postale" id="adresse" rows="1" cols="20" ></textarea><br>
+<input placeholder="   Email" name= “email"  type= "email"/> 
+<input placeholder="   URL" name= “mapage"  type= "url"/> 
+<input placeholder="   telephone" name= “tel"  type= "tel"/> </fieldset> <br><br>
+<fieldset> <legend> 
+<b>Commande</b></legend> 
+
+<label for ="entree" >Entrée: </label>
+<select name ="entree" id="entree" value="0"> 
+<option selected value="0">aucune</option> 
+<option value="100">soupe</option> 
+<option value="150">oeufs</option> 
+<option value="80">salade</option>   
+</select> 
+<strong>prix: </strong><output name="prixentree" for="entree" >  0</output> DA<br>
+
+<LABEL for ="plat" >Plat</LABEL> 
+<select name="plat" id="plat" value="0"> 
+<option selected value="0">aucun</option> 
+<option value="350">Couscous</option> 
+<option value="200">Olives </option> 
+<option value="350">Riz </option>    
+</select>
+<strong>prix:</strong><output name="prixplat" for="plat" >  0</output> DA<br>
+<LABEL for ="dessert" >Dessert</LABEL> 
+<select name="dessert" id="dessert" value="0"> 
+<option selected="selected" value="0">aucun</option> 
+<option value="120">glace  </option> 
+<option value="120">tarte au citron  </option> 
+<option value="180">crepes  </option>    
+</select>
+
+<strong>prix:</strong><output name="prixdessert" for="dessert" >  0</output> DA<br><br>
+<strong> >>> Prix total à payer : </strong>
+<output name="prixtotal" for="prixentree prixplat prixdessert" >  0.00</output> DA
+
+  
+<br><br>
+<div>
+<input type= "submit" value="Envoyer la commande"/></a> 
+<input type= "reset" value="Initialiser la commande"/>
+</div>
+</fieldset></form><br>
+
+<a href="C:\Users\YOGA 260\Desktop\Web Projects\HTML\tp2\Conatct.html">Conact us</a><br><br> 
+
+
+</body>
+ 
+</html>
